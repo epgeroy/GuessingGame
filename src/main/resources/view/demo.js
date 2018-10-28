@@ -1,0 +1,3 @@
+export const demo = 
+{"errors":{"0":[null],"1":[null],"referee":["",""]},"outputs":{"0":[null],"1":[null],"referee":[""]},"summaries":[""],"views":["KEY_FRAME 0\n{\"entitymodule\":[\"C S\",\"U 200 1 i logo.png ay 0 ax 0\"]}\n"],"scores":{"0":0,"1":0},"uinput":["seed\u003d-3171969907277810474\n"],"metadata":"{}\n","tooltips":[],"ids":{"0":0,"1":1},"agents":[{"index":0,"name":"Player 0","avatar":"https://static.codingame.com/servlet/fileservlet?id\u003d16085713250612\u0026format\u003dviewer_avatar","agentId":0},{"index":1,"name":"Player 1","avatar":"https://static.codingame.com/servlet/fileservlet?id\u003d16085756802960\u0026format\u003dviewer_avatar","agentId":1}]}
+;
