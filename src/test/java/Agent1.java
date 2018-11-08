@@ -16,11 +16,11 @@ public class Agent1 {
             int response = Integer.parseInt(input);
 
             if(response == -1){
-                lowThreshold = lastNumber;
-                lastNumber = (maxThreshold - lastNumber) / 2 + lastNumber;
+                lowThreshold = lastNumber + 1;
+                lastNumber = (maxThreshold + lastNumber) / 2;
             }else {
-                maxThreshold = lastNumber;
-                lastNumber = lastNumber - (lastNumber - lowThreshold) / 2;;
+                maxThreshold = lastNumber - 1;
+                lastNumber = (lastNumber + lowThreshold) / 2;
             }
             System.out.println(String.format("%d", lastNumber));
         }
